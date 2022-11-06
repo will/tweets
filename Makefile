@@ -7,6 +7,7 @@ go: everybody refresh timeline
 
 post:
 	git commit -m $(p) --allow-empty
+	git vain
 	git push
 
 refresh:
